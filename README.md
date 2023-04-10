@@ -1,6 +1,6 @@
 # test-regex
 A website to test your regex.
-https://regexr.com/
+[REGEXR](https://regexr.com/)
 
 Regular expression to match column of text/numbers in a corner file using extended regular expression: (?<=^(\S+\s){8}).
 The first regex matches beginning of line with no white space then a white space and enclose inside a capture group to implement same rules to it '(^\S+\s)'.
