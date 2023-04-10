@@ -10,4 +10,4 @@ A website to test your regex:
 
 ## The replace can also be implemented using sed without using look-behind by using \1 to keep part of the pattern.
 Like so:
-`sed -r 's:(^(\S+\s){9}).:\12:gm' corners.txt`
+`sed -r 's:(^(\S+\s){8}).:\12:gm' corners.txt`
