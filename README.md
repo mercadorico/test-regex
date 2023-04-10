@@ -7,3 +7,7 @@ A website to test your regex:
 - It is enclosed inside a capture group to implement same rules to it `(^\S+\s)`.
 - A rule is implemented to the regex inside the capture group, that is match it 8 times using `{8}`.
 - A look behind is used to match any character(represented by `.`) preceded by the regex pattern.
+
+## The replace can also be implemented using sed without using look-behind by using \1 to keep part of the pattern.
+Like so:
+`sed -r 's:(^(\S+\s){9}).:\12:gm' corners.txt`
